@@ -1,9 +1,12 @@
 {
 	"name": "testCricleWithNightwatch",
 	"scripts": {
-		"test": "./node_modules/.bin/nightwatch --env circleci"
+		"test": "./node_modules/.bin/nightwatch --env circleci",
+		"test-chrome": "./node_modules/.bin/nightwatch --env chrome"
 	},
   "dependencies": {
-    "nightwatch": "^0.8.18"
+    "nightwatch": "git://github.com/nightwatchjs/nightwatch.git",
+    "chromedriver": "2.21.2",
+    "selenium-server-standalone-jar": "2.51.0"
   }
 }

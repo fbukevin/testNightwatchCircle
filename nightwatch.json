@@ -3,18 +3,19 @@
   "output_folder": "reports",
   "selenium": {
     "start_process": true,
-    "server_path": "bin/selenium-server-standalone-2.52.0.jar",
+    "server_path": "./node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone-2.51.0.jar",
     "host": "127.0.0.1",
     "port": 4444,
     "cli_args": {
-      "webdriver.chrome.driver": "./bin/chromedriver"
+      "webdriver.chrome.driver": "./node_modules/.bin/chromedriver",
+      "webdriver.firefox.profile": ""
     }
   },
   "test_settings":{
     "default": {
       "launch_url": "http://localhost",
       "selenium_port": 4444,
-      "selenium_host": "localhost",
+      "selenium_host": "127.0.0.1",
       "silent": false,
       "screenshots":{
         "enabled": true,
@@ -23,13 +24,16 @@
         "path": "log"
       },
       "desiredCapabilities":{
-        "browserName": "chrome",
-        "javascriptEnable": true,
-        "acceptSslCerts": true
+        "browserName": "firefox"
       }
     },
     "circleci" : {
       "output_folder" : "${CIRCLE_TEST_REPORTS}"
+    },
+    "chrome":{
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
     }
   }
 }

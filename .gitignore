@@ -2,3 +2,5 @@ node_modules/
 ${CIRCLE_TEST_REPORTS}/
 log/
 reports/
+selenium-debug.log
+.DS_Store
