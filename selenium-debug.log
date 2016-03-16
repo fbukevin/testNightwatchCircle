@@ -1,0 +1,61 @@
+13:43:41.649 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./bin/chromedriver
+13:43:41.684 INFO - Java: Oracle Corporation 25.60-b23
+13:43:41.684 INFO - OS: Mac OS X 10.11.1 x86_64
+13:43:41.692 INFO - v2.52.0, with Core v2.52.0. Built from revision 4c2593c
+13:43:41.760 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:43:41.760 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:43:41.761 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:43:41.761 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:43:41.842 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:43:41.842 INFO - Selenium Server is up and running
+13:43:42.096 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Failure, browserName=chrome, javascriptEnabled=true, platform=ANY, javascriptEnable=true}]])
+13:43:42.104 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Failure, browserName=chrome, javascriptEnabled=true, platform=ANY, javascriptEnable=true}]
+Starting ChromeDriver (v2.9.248307) on port 33798
+13:43:43.386 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Failure, browserName=chrome, javascriptEnabled=true, platform=ANY, javascriptEnable=true}]]
+13:43:43.407 INFO - Executing: [get: http://www.google.com])
+13:43:44.534 INFO - Done: [get: http://www.google.com]
+13:43:44.545 INFO - Executing: [find elements: By.cssSelector: body])
+13:43:44.629 INFO - Done: [find elements: By.cssSelector: body]
+13:43:44.637 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: body]])
+13:43:44.678 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: body]]
+13:43:44.690 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+13:43:44.934 INFO - Done: [find element: By.cssSelector: input[type=text]]
+13:43:44.941 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+13:43:45.130 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+13:43:45.142 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+13:43:45.204 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+13:43:45.209 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: button[name=btnG]]])
+13:43:45.237 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: button[name=btnG]]]
+13:43:45.748 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: button[name=btnG]]])
+13:43:45.755 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: button[name=btnG]]]
+13:43:46.267 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: button[name=btnG]]])
+13:43:46.274 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (05d2a4b947bbae388d7e7ba868c09efc)] -> css selector: button[name=btnG]]]
+13:43:46.283 INFO - Executing: [take screenshot])
+13:43:47.022 INFO - Done: [take screenshot]
+13:43:47.114 INFO - Executing: [delete session: c716ec49-ea7a-43f7-bf91-0bb009615ba1])
+13:43:47.269 INFO - Done: [delete session: c716ec49-ea7a-43f7-bf91-0bb009615ba1]
+13:43:47.446 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Success, browserName=chrome, javascriptEnabled=true, platform=ANY, javascriptEnable=true}]])
+13:43:47.447 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Success, browserName=chrome, javascriptEnabled=true, platform=ANY, javascriptEnable=true}]
+Starting ChromeDriver (v2.9.248307) on port 22623
+13:43:48.321 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Success, browserName=chrome, javascriptEnabled=true, platform=ANY, javascriptEnable=true}]]
+13:43:48.332 INFO - Executing: [get: https://github.com/nightwatchjs/nightwatch])
+13:43:51.664 INFO - Done: [get: https://github.com/nightwatchjs/nightwatch]
+13:43:51.671 INFO - Executing: [find elements: By.cssSelector: body])
+13:43:51.686 INFO - Done: [find elements: By.cssSelector: body]
+13:43:51.692 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (255467f07d945b44c7f520ba6625349f)] -> css selector: body]])
+13:43:51.716 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (255467f07d945b44c7f520ba6625349f)] -> css selector: body]]
+13:43:51.723 INFO - Executing: [get title])
+13:43:51.731 INFO - Done: [get title]
+13:43:51.738 INFO - Executing: [find element: By.cssSelector: .container h1 strong a])
+13:43:51.753 INFO - Done: [find element: By.cssSelector: .container h1 strong a]
+13:43:51.757 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (255467f07d945b44c7f520ba6625349f)] -> css selector: .container h1 strong a]])
+13:43:51.777 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (255467f07d945b44c7f520ba6625349f)] -> css selector: .container h1 strong a]]
+13:43:51.783 INFO - Executing: [find element: By.cssSelector: .container h1 strong a])
+13:43:51.801 INFO - Done: [find element: By.cssSelector: .container h1 strong a]
+13:43:51.806 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (255467f07d945b44c7f520ba6625349f)] -> css selector: .container h1 strong a]])
+13:43:51.824 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (255467f07d945b44c7f520ba6625349f)] -> css selector: .container h1 strong a]]
+13:43:51.838 INFO - Executing: [delete session: 35f04c50-a0d8-4b08-abf1-8d1609c5cd60])
+13:43:52.009 INFO - Done: [delete session: 35f04c50-a0d8-4b08-abf1-8d1609c5cd60]

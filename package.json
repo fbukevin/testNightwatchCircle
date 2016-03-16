@@ -1,0 +1,9 @@
+{
+	"name": "testCricleWithNightwatch",
+	"scripts": {
+		"test": "./node_modules/.bin/nightwatch --env circleci"
+	},
+  "dependencies": {
+    "nightwatch": "^0.8.18"
+  }
+}
